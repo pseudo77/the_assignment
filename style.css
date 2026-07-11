@@ -23,8 +23,14 @@ nav{
     font-size:16px;
     font-weight:400;
     color:#575757;
+    text-decoration:none;
 
 }
+.nav-lists a{
+    color:#575757;
+    text-decoration: none;
+}
+
 .common-btn{
     background-color:blue;
     padding:10px 20px;
