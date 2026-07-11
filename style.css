@@ -113,7 +113,7 @@ span {
 
 .section-headline{
     max-width:500px;
-    margin:20px auto;
+    margin:100px auto 20px auto;
     text-align:center;
     font-size:56px;
 }
@@ -350,24 +350,28 @@ main{
 /* **** */
 /* Footer Section Start */
 footer{
-    background-color:#0d1b2a;      
+    background-color:#0d1b2a;
+    color:#ffffff;
 }
-.footer-parent{
+.footer-top{
     display:flex;
     justify-content:space-between;
-    max-width:1600px;
+    align-items:center;
+    max-width: 1600px;
     margin:auto;
     padding:20px 0px;
-    align-items:center;
-    color:#979292;
-
+    
 }
-.footer-right{
+.footer-bottom{
     display:flex;
-    justify-content: space-between;
-    gap:15px;
+    justify-content:space-between;
+    max-width: 1600px;
+    margin:auto;
+    padding:20px;
 }
-.footer-right p a{
-    text-decoration: none;
-    color:#979292;
+.bottom-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
 }
