@@ -5,7 +5,7 @@ hero section, speaker (the guests who are joining), pricing section.There are on
 section which I can make but the problem is the other section. I don't have any idea what should I do with that remaining
 section. The remaining section will be right after the pricing section and right before the footer section.  
 
-Your goal is 
+Your goal is to
 
 1. Find out the best approach for me. I have searched on google and AI where I find out that there could be lots of
  section possible. Like FAQ, Agenda, Sponsors etc. So choose the best of them.
