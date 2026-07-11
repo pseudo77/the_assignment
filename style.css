@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:aquamarine
+}
+/* Navigation Styles*/
+nav{
+    display:flex;
+    justify-content:space-between;
+    max-width:1600px;
+    margin:auto;
+    padding:20px 0px;
+    align-items:center;
+
+}
+.nav-lists
+{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    list-style:none;
+    font-family: "Arimo", sans-serif;
+    font-size:16px;
+    font-weight:400;
+    font-color:font--color:#575757;
+
+}
+.common-btn{
+    background-color:blue;
+    padding:10px 20px;
+    font-family:inter, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    border-radius:10px;
+    border:none;
+    color:#FFFFFF;
+}
+span{
+    font-style:italic;
+}
+
+.hero{
+    background-image:url(./Assetss/banner.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    
+}
+.hero-content{
+    max-width:710px;
+}
+.hero-content h1{
+    
+    font-family:inter, sans-serif;
+    color:#FFFFFF;
+    font-size:60px;
+    margin-top:200px;
+}
+
+.hero-content p{
+    font-family:inter, sans-serif;
+    color:#FFFFFF;
+    font-size:20px;
+    margin-top:20px;
+}
+.hero-content .common-btn{
+    margin-top:370px;
+    margin-left:200px;
+    padding:15px 30px;
+    font-size:24px;
+    
+}
+section h1{
+    text-align:center;
+}
+main{
+    margin-top:40px;
+    margin-left:150px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+   
+    
+}
+.speaker-box{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    align-content:start;
+    justify-content:start;
+    justify-items:start;
+    gap:10px;
+    background-color:#ffffff;
+    border:solid 1px #E5E7EB;
+    Border-radius:12px;
+}
