@@ -2,9 +2,7 @@
     margin:0;
     padding:0;
 }
-header{
-    background-color:aquamarine
-}
+
 /* Navigation Styles*/
 nav{
     display:flex;
@@ -75,15 +73,19 @@ span{
     font-size:24px;
     
 }
-section h1{
+.section-headline{
+    max-width:500px;
+    margin:20px auto;
     text-align:center;
+    font-size:56px;
 }
 main{
-    margin-top:40px;
-    margin-left:150px;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:30px;
+    max-width:1200px;
+    margin:50px auto;
+    box-sizing:border-box;
    
     
 }
@@ -98,4 +100,75 @@ main{
     background-color:#ffffff;
     border:solid 1px #E5E7EB;
     Border-radius:12px;
+}
+.speaker-info{
+    padding:20px;
+    
+}
+.speaker-info .position{
+    color:blue;
+    margin-bottom:8px;
+}
+.speaker-info h5{
+    margin-bottom:8px;
+
+}
+#price-section-para {
+    max-width:500px;
+    margin:10px auto;
+    text-align: center;
+    font-size:15px;
+}
+.tag-container{
+    display:flex;
+    justify-content:space-between;
+    max-width:1000px;
+    margin:50px auto;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding:10px;
+    gap:5px;
+    
+    
+    
+}
+.headline-2{
+    font-size:45px;
+}
+.tag-child{
+    border:solid 0.5px #e5e7eb;
+    padding:40px;;
+    border-radius:10px;
+}
+.tag-child .p2{
+    margin-bottom:50px;
+
+ 
+}
+.facilities{
+    display:flex;
+    flex-direction: column;
+
+    margin-top:15px;
+    gap:10px;
+}
+.best{
+    background:#0D1B2A;
+    color:#d1c8c8;
+}
+.order-button{
+    
+    margin:20px;
+    font-size:14px;
+    padding:10px 65px;
+    border-radius:5px;
+    border-width:0.7px;
+}
+.O1{
+    color:#2563eb;
+    border-color:#2563eb;
+}
+.O2{
+    background-color:#2563EB;
 }
