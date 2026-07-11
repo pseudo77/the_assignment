@@ -350,3 +350,7 @@ footer{
     justify-content: space-between;
     gap:15px;
 }
+.footer-right p a{
+    text-decoration: none;
+    color:#979292;
+}
