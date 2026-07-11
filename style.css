@@ -3,7 +3,7 @@
     padding:0;
 }
 
-/* Navigation Styles*/
+/* Navigation Start*/
 nav{
     display:flex;
     justify-content:space-between;
@@ -41,6 +41,14 @@ nav{
     border:none;
     color:#FFFFFF;
 }
+
+
+/* Navigation End */
+
+/* ***** */
+
+/* Hero Start */
+
 span{
     font-style:italic;
 }
@@ -79,6 +87,13 @@ span{
     font-size:24px;
     
 }
+
+/* Hero End */
+
+/* ***** */
+
+/* Speakers Start */
+
 .section-headline{
     max-width:500px;
     margin:20px auto;
@@ -118,7 +133,13 @@ main{
 .speaker-info h5{
     margin-bottom:8px;
 
+
 }
+/* Speaker Section End */
+
+
+/* ******* */
+/* Price Section Start */
 #price-section-para {
     max-width:500px;
     margin:10px auto;
@@ -177,4 +198,155 @@ main{
 }
 .O2{
     background-color:#2563EB;
+}
+/* Price Section End */
+
+
+/* ****** */
+/* Agenda Section Start*/
+/* Base Layout Variables & Setup */
+:root {
+  --bg-primary: #121214;      /* A crisp, dark charcoal gray (clearly different from navy) */
+  --bg-surface: #1a1a1e;      /* A slightly lighter tile background for the event cards */
+  --accent-color: #a855f7;    /* An electric tech-purple for times and day markers */
+  --text-main: #f4f4f5;       /* Crisp, clean off-white for titles */
+  --text-muted: #a1a1aa;      /* A soft silver-gray for descriptions */
+  --border-color: #27272a;    /* A subtle, sharp border line */
+}
+
+.agenda-section {
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  padding: 80px 20px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 60px;
+}
+
+/* Timeline Layout Layout Structure */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+/* Vertical structural line between days on desktop screens */
+@media (min-width: 768px) {
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 120px;
+    top: 10px;
+    bottom: 10px;
+    width: 2px;
+    background-color: var(--border-color);
+  }
+}
+
+.timeline-day {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .timeline-day {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+/* Day Side Indicator Labels */
+.day-marker {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  min-width: 120px;
+  padding-top: 15px;
+}
+
+/* Event Cards Layout Container */
+.timeline-events {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Event Block Styling */
+.event-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.event-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-color); /* Glows electric purple on hover */
+}
+
+.event-time {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.event-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+/* Advanced Child Selector handles descriptive text inside the block */
+.event-title + .event-desc {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+/* Agenda Section End */
+
+
+/* **** */
+/* Footer Section Start */
+footer{
+    background-color:#0d1b2a;      
+}
+.footer-parent{
+    display:flex;
+    justify-content:space-between;
+    max-width:1600px;
+    margin:auto;
+    padding:20px 0px;
+    align-items:center;
+    color:#979292;
+
+}
+.footer-right{
+    display:flex;
+    justify-content: space-between;
+    gap:15px;
 }
